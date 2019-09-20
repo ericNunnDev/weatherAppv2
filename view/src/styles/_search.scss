@@ -1,11 +1,15 @@
 .fas {
     margin-left: -7.5px;
-}
-
-.input-field {
-    font-size: 1.5em;
 
     @include mediaSm {
-        font-size: 0.8em;
+        display: none;
+    }
+}
+
+#city {
+    @include mediaSm {
+        margin-top: 10px;
+        margin-left: 0em;
+        padding-bottom: 10px;
     }
 }

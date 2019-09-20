@@ -15,7 +15,7 @@ class SearchWeather extends Component {
               <div className='input-field col s12'>
                 <i className='fas fa-city fa-2x prefix' />
                 <input type='text' id='city' />
-                <label className='placeholder' htmlFor='city'> Enter the name of your city and state here</label>
+                <label className='placeholder' htmlFor='city'> Enter the name of your city and state:</label>
                 <a className='waves-effect waves-light btn btn-large'>Show me the Weather!</a>
               </div>
             </div>
