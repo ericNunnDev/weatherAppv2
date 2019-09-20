@@ -6,7 +6,7 @@ class Search extends Component {
           <div id='search'>
             <label htmlFor='city'>City Name: </label>
             <input type='text' id='city' />
-            <button type='submit'>Show me the Weather!</button>
+            <button className='btn' type='submit'>Show me the Weather!</button>
           </div>
         )
     }
