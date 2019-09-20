@@ -12,7 +12,7 @@ class SearchWeather extends Component {
         <div id='search'>
           <label htmlFor='city'>City Name: </label>
           <input type='text' id='city' />
-          <button className='waves-effect waves-light btn btn-large' type='submit'>Show me the Weather!</button>
+          <a className='waves-effect waves-light btn btn-large'>Show me the Weather!</a>
         </div>
       )
     }

@@ -3,7 +3,8 @@ import React from 'react';
 const Navigation = () => {
     return (
         <div className='nav-wrapper'>
-            <ul>
+            <a href='#' className='brand-logo'>What's the Weather?</a>
+            <ul className='right'>
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>About</a></li>
                 <li><a href='#'>Contact</a></li>

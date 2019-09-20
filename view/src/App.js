@@ -13,7 +13,7 @@ function App() {
       <Navigation />
       </nav>
     </header>
-    <main>
+    <main className='center'>
       <SearchWeather />
       <Weather />
     </main>

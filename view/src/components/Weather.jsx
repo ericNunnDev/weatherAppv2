@@ -7,7 +7,7 @@ class Weather extends Component {
            <h1 id='weatherCity'>City Name</h1>
            <div id='weatherDesc'>Weather Description</div>
            <div id='weatherTemp'>Temperature</div>
-          </div>
+         </div>
         )
     }
 }
