@@ -1,6 +1,8 @@
+// Variables and Mixins
+@import './vars';
+
+// Components
 @import './navigation';
+@import './search';
 @import './weather';
 @import './footer';
-
-.App {
-}

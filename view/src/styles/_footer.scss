@@ -1,5 +1,9 @@
 footer {
-    margin-top: 25px;
+    margin-top: 53vh;
+
+    @media (max-width: 576px) {
+        margin-top: 33vh;
+    }
 
     a {
 
