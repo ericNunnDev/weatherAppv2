@@ -1,0 +1,23 @@
+{
+  "name": "weatherappv2",
+  "version": "1.0.0",
+  "description": "Second build of the original weather app built several months ago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericNunnDev/weatherAppv2.git"
+  },
+  "keywords": [
+    "weather",
+    "forecast"
+  ],
+  "author": "Eric Nunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericNunnDev/weatherAppv2/issues"
+  },
+  "homepage": "https://github.com/ericNunnDev/weatherAppv2#readme"
+}
