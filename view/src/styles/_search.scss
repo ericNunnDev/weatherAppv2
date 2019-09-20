@@ -1,6 +1,11 @@
+.fas {
+    margin-left: -7.5px;
+}
+
 .input-field {
-    
-    .fas {
-        margin-left: -7.5px;
+    font-size: 1.5em;
+
+    @include mediaSm {
+        font-size: 0.8em;
     }
 }

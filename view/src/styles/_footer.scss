@@ -1,7 +1,7 @@
 footer {
     margin-top: 53vh;
 
-    @media (max-width: 576px) {
+    @include mediaSm {
         margin-top: 33vh;
     }
 

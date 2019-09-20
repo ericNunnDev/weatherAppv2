@@ -4,8 +4,37 @@ nav {
     .nav-wrapper {
         background-color: dodgerblue;
 
-        a {
-            color: #FFF;
+        .brand-logo {
+            padding-left: 10px;
+
+            @include mediaSm {
+                display: none;
+            }
+        }
+
+        ul {
+            @include mediaSm {
+                margin: 0 auto;
+                padding-right: 25px;
+            }
+
+
+        }
+            .nav-link {
+                color: #FFF;
+
+                &:hover {
+                    background-color: #FFF;
+                    color: dodgerblue;
+                    transform: scale(1.25, 1.25);
+                }
+            }
         }
     }
-}
+
+
+
+
+
+
+
