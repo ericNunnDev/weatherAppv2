@@ -1,3 +1,14 @@
+import React from 'react';
+
+module.exports= {
+    searchButton,
+    searchCity,
+    loadingText,
+    weatherCity,
+    weatherDescription,
+    weatherTemp
+}
+
 const searchButton = document.querySelector('button'),
       searchCity = document.getElementById('city'),
       loadingText = document.getElementById('load'),
