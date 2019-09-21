@@ -2,13 +2,14 @@ footer {
     margin-top: 53vh;
 
     @include mediaSm {
-        margin-top: 32vh;
+        margin-top: 34vh;
     }
 
-    a {
+    ul {
+        display: inline-flex;
 
-        &:hover {
-            text-decoration: underline;
+        li {
+            margin: 0 25px 0 25px;
         }
     }
 }

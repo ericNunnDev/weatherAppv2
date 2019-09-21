@@ -7,9 +7,9 @@ const Footer = () => {
                 <div className='row'>
                     <div className='col s12'>
                      <ul>
-                       <li><a className='grey-text text-lighten-3' href='#'>Link 1</a></li>
-                       <li><a className='grey-text text-lighten-3' href='#'>Link 2</a></li>
-                       <li><a className='grey-text text-lighten-3' href='#'>Link 3</a></li>
+                       <li><a className='grey-text text-lighten-3' href='#'><i className='fab fa-github-alt fa-2x' /></a></li>
+                       <li><a className='grey-text text-lighten-3' href='#'><i className='fab fa-react fa-2x' /></a></li>
+                       <li><a className='grey-text text-lighten-3' href='#'><i className='fab fa-sass fa-2x' /></a></li>
                      </ul>
                     </div>
                 </div>
