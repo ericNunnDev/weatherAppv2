@@ -1,9 +1,5 @@
 footer {
-    margin-top: 53vh;
-
-    @include mediaSm {
-        margin-top: 34vh;
-    }
+    margin-top: 12vh;   
 
     ul {
         display: inline-flex;
